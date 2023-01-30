@@ -8,7 +8,7 @@ Funcion opcion=presentarMenu(titulo,menu,lim)
 	Para pos=0 Hasta lim-1 Con Paso 1 Hacer
 		Escribir menu[pos]
 	Fin Para
-	Escribir "       Elija opciÛn[1..",lim,"]" Sin Saltar
+	Escribir "       Elija opci√≥n[1..",lim,"]" Sin Saltar
 	leer opcion
 FinFuncion
 
@@ -402,7 +402,7 @@ Escribir "ingrese la palabra"
 leer palabra
 inversa="";
 b=Longitud(palabra)
-para i=b Hasta 0 Con Paso -1 Hacer
+para i=0 Hasta b Con Paso 1 Hacer
 	inversa=inversa+Subcadena(palabra,i,i)
 FinPara
 si palabra=inversa Entonces
@@ -687,8 +687,8 @@ Algoritmo Proyecto
 	menuNumeros[3] = "  4)Suma Pares y Productos multiplos de 5 de una secuencia de numeros."
 	//  2,123,10,2345,0 respuesta = 10    r=trunc(2/10)=0 r = 2 mod 10 =2
 	menuNumeros[4] = "  5)Presentar cantidad de digitos de todos los numeros de una secuencia de numeros hasta 0."
-	//El almacen SomosMas tiene una promociÛn: a todos los trajes que tienen un
-	//precio superior a 100, se les aplicar· un descuento del 10%  y a los demas
+	//El almacen SomosMas tiene una promoci√≥n: a todos los trajes que tienen un
+	//precio superior a 100, se les aplicar√° un descuento del 10%  y a los demas
 	//el 5%. presentar el valor de cada traje con su respectivo valor, descuento y pago
 	//considerando el iva del 12%. Asuma que se ingresan n trajes.
 	// n=2
