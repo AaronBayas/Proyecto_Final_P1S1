@@ -192,13 +192,13 @@ Escribir "Ingrese Numero 2 : "
 Leer n2
 suma1=0
 suma2=0
-Para c=1 Hasta n1 Hacer
+Para c=1 Hasta n1-1 Hacer
 	si n1 mod c=0
 		suma1=suma1+c
 		
 	FinSi
 FinPara
-Para c=1 Hasta n2 Hacer
+Para c=1 Hasta n2-1 Hacer
 	si n2 mod c=0
 		suma2=suma2+c
 	FinSi
